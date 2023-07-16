@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>3Lancers</title>
+    <link
+      rel="icon"
+      href="img/logo.png"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/sm.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+      integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <section id="main" class="center">
+      <div id="particles-js"></div>
+      <div class="user_info">
+        <h1 class="user_name">Web Tech.</h1>
+        <p>Web Development Team</p>
+      </div>
+      <div class="user_img">
+        <img src="img/logo.png" alt="" />
+      </div>
+    </section>
+
+    <!-- about -->
+    <section class="about center" id="About">
+    <div class="center">
+      <h1 class="about_heading">About</h1>
+      <p>
+        Hello! We are Web Tech, and We are web developers.
+        Our team consists of  Omar, Mazen, Mahmoud, Farida.
+      </p>
+    </div>
+        <img src="img/img.png" alt="">
+    </section>
+    <section class="skills center" id="Skills">
+      <p class="skill_head">Skills</p>
+      <div class="skill_box center">
+        <div class="box">
+          <i class="fab fa-html5 fa-4x"></i>
+          <p>HTML</p>
+        </div>
+        <div class="box">
+          <i class="fab fa-css3-alt fa-4x"></i>
+          <p>CSS</p>
+        </div>
+        <div class="box">
+          <i class="fab fa-js-square fa-4x"></i>
+          <p>Javascript</p>
+        </div>
+        <div class="box">
+          <i class="fa fa-database fa-4x"></i>
+          <p>MySQL</p>
+        </div>
+        <div class="box">
+          <i class="fab fa-node-js fa-4x"></i>
+          <p>Node Js</p>
+        </div>
+        <!-- <div class="box">
+          <i class="fas fa-desktop fa-4x"></i>
+          <p>UI/UX</p>
+        </div> -->
+      </div>
+    </section>
+    <section class="projects center" id="Projects">
+      <h1 class="project_heading">Energy Consumption Monitoring and Reporting System</h1>
+      <h2 class="project_heading2">Overview</h2>
+      <div class="container center">
+        <p>The Energy Consumption Monitoring and Reporting System is a Python program designed to track and control energy consumption in residential, commercial, or industrial settings.<br>
+           The primary goal of the system is to help users monitor their energy usage and provide them with detailed reports in PDF format, enabling better energy management and cost savings.<br>
+            The program will collect real-time energy consumption data from various sources, analyze the data, and generate comprehensive reports for users to review.</p>
+      </div>
+      <br>
+      <br>
+      <h2 class="project_heading2">Key Features</h2>
+      <div class="container center">
+      <div class="container center">
+        <p>
+          1. Real-time Data Collection: The program will integrate with smart meters, IoT devices, or <br> energy monitoring systems to collect real-time energy consumption data, such as <br> electricity, water, or gas usage. <br>
+
+          2. Data Analysis and Visualization: It will process the collected data to generate visualizations <br> like charts, graphs, and statistics, making it easier for users to understand their energy <br> consumption patterns.<br>
+          
+          3. User-Friendly Interface: The system will offer an intuitive command-line or graphical user <br> interface (GUI) to interact with the program and view energy usage details.<br>
+          
+          4. Energy Consumption Alerts: Users can set threshold values for energy consumption, and <br> the program will send alerts when these thresholds are exceeded.<br>
+          
+          5. Energy Consumption Control: The program can implement energy control strategies, such <br> as turning off certain appliances remotely or scheduling specific activities to optimize <br> energy usage.<br>
+          
+          6. Reporting and PDF Generation: The system will generate periodic (daily, weekly, or monthly) <br> reports in PDF format, providing a comprehensive overview of energy consumption and <br> savings trends<br>
+        </p>
+      </div>
+    </div>
+    </section>
+
+    <!-- footer -->
+      <div class="center test">
+        <h1>Stay Connected</h1>
+      </div>
+      <div class="center test2">
+      <a href="#" class="link">
+        <i class="fab fa-facebook"></i>
+      </a>
+      <a href="#" class="link">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="#" class="link">
+        <i class="fab fa-youtube"></i>
+      </a>
+      <a href="#" class="link">
+        <i class="fab fa-tiktok"></i>
+      </a>
+      </div>
+      <footer>
+      <div class="center">
+            <p>© 2022 All Rights Reserved.</p>
+      </div>
+      <div class="center">
+        <p>Design by Web Tech</p>
+      </div>
+      </footer>
+    <button class="btn2"><a href="#main"><i class="fa fa-arrow-up"></i></a></button>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
+    <script src="js/particles.js"></script>
+    <script>
+      const toggle = document.getElementById("toggle");
+      const btn = document.getElementById("btn");
+      const links = document.querySelectorAll(".links");
+
+      btn.addEventListener("click", (e) => {
+        toggle.classList.toggle("active");
+      });
+      links.forEach((e) => {
+        e.addEventListener("click", () => {
+        toggle.classList.toggle("active");
+        })
+      });
+    </script>
+
+  </body>
+</html>
