@@ -216,43 +216,9 @@ body {
   overflow-x: hidden;
   overflow-y: hidden;
 }
-.projects::before,
-.projects::after {
-  content: "";
-  position: absolute;
-  width: 20em;
-  height: 20em;
-  background: #f953c6; 
-  background: -webkit-linear-gradient(
-    to right,
-    #b91d73,
-    #f953c6
-  ); 
-  background: linear-gradient(
-    to right,
-    #b91d73,
-    #f953c6
-  ); 
-  border-radius: 50%;
-}
 .projects::before {
   left: -10em;
   bottom: 0;
-}
-.projects::after {
-  right: -10em;
-  top: 8em;
-  background: #8e2de2; 
-  background: -webkit-linear-gradient(
-    to right,
-    #4a00e0,
-    #8e2de2
-  ); 
-  background: linear-gradient(
-    to right,
-    #4a00e0,
-    #8e2de2
-  ); 
 }
 .projects .project_heading {
   margin-bottom: 0.4em;
